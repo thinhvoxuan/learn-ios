@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14B1DEA71EA2798200CC2AF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1DEA61EA2798200CC2AF9 /* AppDelegate.swift */; };
+		14B1DEA91EA2798200CC2AF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1DEA81EA2798200CC2AF9 /* ViewController.swift */; };
+		14B1DEAC1EA2798200CC2AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B1DEAA1EA2798200CC2AF9 /* Main.storyboard */; };
+		14B1DEAF1EA2798200CC2AF9 /* Erie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14B1DEAD1EA2798200CC2AF9 /* Erie.xcdatamodeld */; };
+		14B1DEB11EA2798200CC2AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B1DEB01EA2798200CC2AF9 /* Assets.xcassets */; };
+		14B1DEB41EA2798200CC2AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B1DEB21EA2798200CC2AF9 /* LaunchScreen.storyboard */; };
+		14B1DEBF1EA2798200CC2AF9 /* ErieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1DEBE1EA2798200CC2AF9 /* ErieTests.swift */; };
+		14B1DECA1EA2798200CC2AF9 /* ErieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B1DEC91EA2798200CC2AF9 /* ErieUITests.swift */; };
+		A5A97E89D736B801EBBABA21 /* Pods_Erie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88C8269E3046A8A16B40622 /* Pods_Erie.framework */; };
+		BC9742DD4B6EE825C1B09868 /* Pods_ErieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB56A4A88E3C48833DD30 /* Pods_ErieUITests.framework */; };
+		D20D414A1CE165C5B7AFAA94 /* Pods_ErieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79406005275ABEDE86868932 /* Pods_ErieTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14B1DEBB1EA2798200CC2AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14B1DE9B1EA2798200CC2AF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B1DEA21EA2798200CC2AF9;
+			remoteInfo = Erie;
+		};
+		14B1DEC61EA2798200CC2AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14B1DE9B1EA2798200CC2AF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B1DEA21EA2798200CC2AF9;
+			remoteInfo = Erie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035DA4A35E74EABFE6D956FC /* Pods-Erie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erie.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Erie/Pods-Erie.release.xcconfig"; sourceTree = "<group>"; };
+		045C897600F459AA2177E71F /* Pods-ErieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErieUITests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ErieUITests/Pods-ErieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		14B1DEA31EA2798200CC2AF9 /* Erie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B1DEA61EA2798200CC2AF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14B1DEA81EA2798200CC2AF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14B1DEAB1EA2798200CC2AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14B1DEAE1EA2798200CC2AF9 /* Erie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Erie.xcdatamodel; sourceTree = "<group>"; };
+		14B1DEB01EA2798200CC2AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14B1DEB31EA2798200CC2AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14B1DEB51EA2798200CC2AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B1DEBA1EA2798200CC2AF9 /* ErieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B1DEBE1EA2798200CC2AF9 /* ErieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErieTests.swift; sourceTree = "<group>"; };
+		14B1DEC01EA2798200CC2AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B1DEC51EA2798200CC2AF9 /* ErieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B1DEC91EA2798200CC2AF9 /* ErieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErieUITests.swift; sourceTree = "<group>"; };
+		14B1DECB1EA2798200CC2AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A654F309E57BB5ED728FF5E /* Pods-ErieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErieTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ErieTests/Pods-ErieTests.release.xcconfig"; sourceTree = "<group>"; };
+		233F57B92D929CBAA566E0D5 /* Pods-Erie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erie.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Erie/Pods-Erie.debug.xcconfig"; sourceTree = "<group>"; };
+		79406005275ABEDE86868932 /* Pods_ErieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8691200C59D9B73A05BD4DE1 /* Pods-ErieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErieTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ErieTests/Pods-ErieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F78AB56A4A88E3C48833DD30 /* Pods_ErieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88C8269E3046A8A16B40622 /* Pods_Erie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Erie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE9A8D1D7C4E3BCA76D0B2C /* Pods-ErieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErieUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ErieUITests/Pods-ErieUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B1DEA01EA2798200CC2AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A97E89D736B801EBBABA21 /* Pods_Erie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B1DEB71EA2798200CC2AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20D414A1CE165C5B7AFAA94 /* Pods_ErieTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B1DEC21EA2798200CC2AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9742DD4B6EE825C1B09868 /* Pods_ErieUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B1DE9A1EA2798200CC2AF9 = {
+			isa = PBXGroup;
+			children = (
+				14B1DEA51EA2798200CC2AF9 /* Erie */,
+				14B1DEBD1EA2798200CC2AF9 /* ErieTests */,
+				14B1DEC81EA2798200CC2AF9 /* ErieUITests */,
+				14B1DEA41EA2798200CC2AF9 /* Products */,
+				C35BDC8AABC583BF7DB2AFC8 /* Pods */,
+				CEB3CC8FB7F7A9350EF49CB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14B1DEA41EA2798200CC2AF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14B1DEA31EA2798200CC2AF9 /* Erie.app */,
+				14B1DEBA1EA2798200CC2AF9 /* ErieTests.xctest */,
+				14B1DEC51EA2798200CC2AF9 /* ErieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B1DEA51EA2798200CC2AF9 /* Erie */ = {
+			isa = PBXGroup;
+			children = (
+				14B1DEA61EA2798200CC2AF9 /* AppDelegate.swift */,
+				14B1DEA81EA2798200CC2AF9 /* ViewController.swift */,
+				14B1DEAA1EA2798200CC2AF9 /* Main.storyboard */,
+				14B1DEB01EA2798200CC2AF9 /* Assets.xcassets */,
+				14B1DEB21EA2798200CC2AF9 /* LaunchScreen.storyboard */,
+				14B1DEB51EA2798200CC2AF9 /* Info.plist */,
+				14B1DEAD1EA2798200CC2AF9 /* Erie.xcdatamodeld */,
+			);
+			path = Erie;
+			sourceTree = "<group>";
+		};
+		14B1DEBD1EA2798200CC2AF9 /* ErieTests */ = {
+			isa = PBXGroup;
+			children = (
+				14B1DEBE1EA2798200CC2AF9 /* ErieTests.swift */,
+				14B1DEC01EA2798200CC2AF9 /* Info.plist */,
+			);
+			path = ErieTests;
+			sourceTree = "<group>";
+		};
+		14B1DEC81EA2798200CC2AF9 /* ErieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14B1DEC91EA2798200CC2AF9 /* ErieUITests.swift */,
+				14B1DECB1EA2798200CC2AF9 /* Info.plist */,
+			);
+			path = ErieUITests;
+			sourceTree = "<group>";
+		};
+		C35BDC8AABC583BF7DB2AFC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				233F57B92D929CBAA566E0D5 /* Pods-Erie.debug.xcconfig */,
+				035DA4A35E74EABFE6D956FC /* Pods-Erie.release.xcconfig */,
+				8691200C59D9B73A05BD4DE1 /* Pods-ErieTests.debug.xcconfig */,
+				1A654F309E57BB5ED728FF5E /* Pods-ErieTests.release.xcconfig */,
+				045C897600F459AA2177E71F /* Pods-ErieUITests.debug.xcconfig */,
+				FCE9A8D1D7C4E3BCA76D0B2C /* Pods-ErieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEB3CC8FB7F7A9350EF49CB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F88C8269E3046A8A16B40622 /* Pods_Erie.framework */,
+				79406005275ABEDE86868932 /* Pods_ErieTests.framework */,
+				F78AB56A4A88E3C48833DD30 /* Pods_ErieUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14B1DEA21EA2798200CC2AF9 /* Erie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B1DECE1EA2798200CC2AF9 /* Build configuration list for PBXNativeTarget "Erie" */;
+			buildPhases = (
+				32289DE43CAA643115B90AC0 /* [CP] Check Pods Manifest.lock */,
+				14B1DE9F1EA2798200CC2AF9 /* Sources */,
+				14B1DEA01EA2798200CC2AF9 /* Frameworks */,
+				14B1DEA11EA2798200CC2AF9 /* Resources */,
+				857DD9730268A0118AC57899 /* [CP] Embed Pods Frameworks */,
+				D61504F2B6477DAD908A64B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Erie;
+			productName = Erie;
+			productReference = 14B1DEA31EA2798200CC2AF9 /* Erie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14B1DEB91EA2798200CC2AF9 /* ErieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B1DED11EA2798200CC2AF9 /* Build configuration list for PBXNativeTarget "ErieTests" */;
+			buildPhases = (
+				19BEB29516105399670CBCAB /* [CP] Check Pods Manifest.lock */,
+				14B1DEB61EA2798200CC2AF9 /* Sources */,
+				14B1DEB71EA2798200CC2AF9 /* Frameworks */,
+				14B1DEB81EA2798200CC2AF9 /* Resources */,
+				8978D42B3C79DB68E2187D52 /* [CP] Embed Pods Frameworks */,
+				E9E7DC4881201C616BEEC728 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14B1DEBC1EA2798200CC2AF9 /* PBXTargetDependency */,
+			);
+			name = ErieTests;
+			productName = ErieTests;
+			productReference = 14B1DEBA1EA2798200CC2AF9 /* ErieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14B1DEC41EA2798200CC2AF9 /* ErieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B1DED41EA2798200CC2AF9 /* Build configuration list for PBXNativeTarget "ErieUITests" */;
+			buildPhases = (
+				C2BD57CAA8BB8BBA9D824013 /* [CP] Check Pods Manifest.lock */,
+				14B1DEC11EA2798200CC2AF9 /* Sources */,
+				14B1DEC21EA2798200CC2AF9 /* Frameworks */,
+				14B1DEC31EA2798200CC2AF9 /* Resources */,
+				90F69B414412A234AA148815 /* [CP] Embed Pods Frameworks */,
+				64D15577573B54DDBC8A8E57 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14B1DEC71EA2798200CC2AF9 /* PBXTargetDependency */,
+			);
+			name = ErieUITests;
+			productName = ErieUITests;
+			productReference = 14B1DEC51EA2798200CC2AF9 /* ErieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14B1DE9B1EA2798200CC2AF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = thinhvoxuan;
+				TargetAttributes = {
+					14B1DEA21EA2798200CC2AF9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					14B1DEB91EA2798200CC2AF9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14B1DEA21EA2798200CC2AF9;
+					};
+					14B1DEC41EA2798200CC2AF9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14B1DEA21EA2798200CC2AF9;
+					};
+				};
+			};
+			buildConfigurationList = 14B1DE9E1EA2798200CC2AF9 /* Build configuration list for PBXProject "Erie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14B1DE9A1EA2798200CC2AF9;
+			productRefGroup = 14B1DEA41EA2798200CC2AF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14B1DEA21EA2798200CC2AF9 /* Erie */,
+				14B1DEB91EA2798200CC2AF9 /* ErieTests */,
+				14B1DEC41EA2798200CC2AF9 /* ErieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14B1DEA11EA2798200CC2AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B1DEB41EA2798200CC2AF9 /* LaunchScreen.storyboard in Resources */,
+				14B1DEB11EA2798200CC2AF9 /* Assets.xcassets in Resources */,
+				14B1DEAC1EA2798200CC2AF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B1DEB81EA2798200CC2AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B1DEC31EA2798200CC2AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19BEB29516105399670CBCAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32289DE43CAA643115B90AC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64D15577573B54DDBC8A8E57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ErieUITests/Pods-ErieUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		857DD9730268A0118AC57899 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Erie/Pods-Erie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8978D42B3C79DB68E2187D52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ErieTests/Pods-ErieTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90F69B414412A234AA148815 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ErieUITests/Pods-ErieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2BD57CAA8BB8BBA9D824013 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D61504F2B6477DAD908A64B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Erie/Pods-Erie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E7DC4881201C616BEEC728 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ErieTests/Pods-ErieTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B1DE9F1EA2798200CC2AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B1DEA91EA2798200CC2AF9 /* ViewController.swift in Sources */,
+				14B1DEA71EA2798200CC2AF9 /* AppDelegate.swift in Sources */,
+				14B1DEAF1EA2798200CC2AF9 /* Erie.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B1DEB61EA2798200CC2AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B1DEBF1EA2798200CC2AF9 /* ErieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B1DEC11EA2798200CC2AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B1DECA1EA2798200CC2AF9 /* ErieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14B1DEBC1EA2798200CC2AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14B1DEA21EA2798200CC2AF9 /* Erie */;
+			targetProxy = 14B1DEBB1EA2798200CC2AF9 /* PBXContainerItemProxy */;
+		};
+		14B1DEC71EA2798200CC2AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14B1DEA21EA2798200CC2AF9 /* Erie */;
+			targetProxy = 14B1DEC61EA2798200CC2AF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14B1DEAA1EA2798200CC2AF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B1DEAB1EA2798200CC2AF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14B1DEB21EA2798200CC2AF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B1DEB31EA2798200CC2AF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14B1DECC1EA2798200CC2AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14B1DECD1EA2798200CC2AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14B1DECF1EA2798200CC2AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233F57B92D929CBAA566E0D5 /* Pods-Erie.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Erie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.thinhvoxuan.Erie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		14B1DED01EA2798200CC2AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035DA4A35E74EABFE6D956FC /* Pods-Erie.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Erie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.thinhvoxuan.Erie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		14B1DED21EA2798200CC2AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8691200C59D9B73A05BD4DE1 /* Pods-ErieTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ErieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.thinhvoxuan.ErieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Erie.app/Erie";
+			};
+			name = Debug;
+		};
+		14B1DED31EA2798200CC2AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A654F309E57BB5ED728FF5E /* Pods-ErieTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ErieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.thinhvoxuan.ErieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Erie.app/Erie";
+			};
+			name = Release;
+		};
+		14B1DED51EA2798200CC2AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045C897600F459AA2177E71F /* Pods-ErieUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				INFOPLIST_FILE = ErieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.thinhvoxuan.ErieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Erie;
+			};
+			name = Debug;
+		};
+		14B1DED61EA2798200CC2AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE9A8D1D7C4E3BCA76D0B2C /* Pods-ErieUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				INFOPLIST_FILE = ErieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.thinhvoxuan.ErieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Erie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B1DE9E1EA2798200CC2AF9 /* Build configuration list for PBXProject "Erie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B1DECC1EA2798200CC2AF9 /* Debug */,
+				14B1DECD1EA2798200CC2AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B1DECE1EA2798200CC2AF9 /* Build configuration list for PBXNativeTarget "Erie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B1DECF1EA2798200CC2AF9 /* Debug */,
+				14B1DED01EA2798200CC2AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B1DED11EA2798200CC2AF9 /* Build configuration list for PBXNativeTarget "ErieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B1DED21EA2798200CC2AF9 /* Debug */,
+				14B1DED31EA2798200CC2AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B1DED41EA2798200CC2AF9 /* Build configuration list for PBXNativeTarget "ErieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B1DED51EA2798200CC2AF9 /* Debug */,
+				14B1DED61EA2798200CC2AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		14B1DEAD1EA2798200CC2AF9 /* Erie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14B1DEAE1EA2798200CC2AF9 /* Erie.xcdatamodel */,
+			);
+			currentVersion = 14B1DEAE1EA2798200CC2AF9 /* Erie.xcdatamodel */;
+			path = Erie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14B1DE9B1EA2798200CC2AF9 /* Project object */;
+}
