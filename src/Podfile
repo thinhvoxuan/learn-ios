@@ -1,0 +1,39 @@
+#
+# Copyright (c) 2017, ThinhVoXuan
+# All rights reserved.
+#
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+project_name = 'Erie'
+workspace 'Erie.xcworkspace'
+project 'Erie/Erie.xcodeproj'
+
+
+def app_pods
+    pod 'Alamofire', '~> 4.4'
+end
+
+def testing_pods
+    pod 'Quick'
+    pod 'Nimble'
+end
+
+target 'Erie' do
+    app_pods
+end
+
+target 'ErieTests' do
+    inherit! :search_paths
+    app_pods
+    testing_pods
+end    
+target 'ErieUITests' do
+    inherit! :search_paths
+    app_pods
+    testing_pods
+end
+
+
