@@ -17,8 +17,8 @@ def app_pods
 end
 
 def testing_pods
-    pod 'Quick', '~> 6.1'
-    pod 'Nimble', '~> 1.1'
+    pod 'Quick'
+    pod 'Nimble'
 end
 
 target 'Erie' do

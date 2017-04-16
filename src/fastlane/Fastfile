@@ -24,7 +24,16 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    scan
+    scan(
+      scheme: ENV["SCHEME"],
+      slack_url: ENV["SLACK_URL"],
+      code_coverage: true,
+      clean: true
+    )
+    xcov(
+      scheme: ENV["SCHEME"],
+      slack_url: ENV["SLACK_URL"],
+      only_project_targets: true)
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"

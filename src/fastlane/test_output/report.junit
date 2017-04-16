@@ -2,9 +2,9 @@
 <testsuites name='ErieUITests.xctest' tests='3' failures='0'>
   <testsuite name='ErieTests.ErieTests' tests='2' failures='0'>
     <testcase classname='ErieTests.ErieTests' name='testExample' time='0.001'/>
-    <testcase classname='ErieTests.ErieTests' name='testPerformanceExample' time='0.556'/>
+    <testcase classname='ErieTests.ErieTests' name='testPerformanceExample' time='0.342'/>
   </testsuite>
   <testsuite name='ErieUITests.ErieUITests' tests='1' failures='0'>
-    <testcase classname='ErieUITests.ErieUITests' name='testExample' time='6.277'/>
+    <testcase classname='ErieUITests.ErieUITests' name='testExample' time='6.119'/>
   </testsuite>
 </testsuites>
